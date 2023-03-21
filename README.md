@@ -1,2 +1,2 @@
 # Miniature-Chess
-A C++-based program that plays a miniature chess in a terminal.
+A C++ program designed to play a miniature chess game in a terminal.
