@@ -1,8 +1,6 @@
 # Miniature-Chess
-A C++ program allowing a user to play a miniature chess game in a terminal.
+A C++ program allowing a user to play a game of miniature chess in a terminal.
 
-I wrote this program during my CS202 class, and it was built with the help of abstract classes, dynamic memory management, and virtual functions. The chess game itself is made up of a pointer array with each chess piece actually being an object allocated in memory. Users moving chess pieces will actually be moving the object's memory location and any time a user takes a piece from the opposing player, the object will properly be deallocated from memory. 
+I wrote this program during my CS202 class, and it was built with the help of abstract classes, dynamic memory management, and virtual functions. The program begins by allocating memory to create a chess board that is then populated with chess piece objects based on the piece type that is needed. From there, the game is played by having a user correctly type in a valid move based on the piece chosen, and it will end once a player has captured all of their opponent's pieces. 
 
-This program is one of my favorites that I have written due to how interactive it is. I enjoyed making something that can actually be played by a real person. Not only that, but it wasn't too difficult to write since we did not have to worry about programming for the king.
-
-This was a fun program.
+Personally, this is my favorite program I have written because of its interactivity. I loved being able to witness my program slowly come alive in my terminal, and I enjoyed the ability to let anyone play this mini version of chess I created. Not only that, but I thought this program helped me improve my object-oriented programming due to how easy it was to imagine each individual chess piece as its own individual object. 
